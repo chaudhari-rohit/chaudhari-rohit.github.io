@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <head>
     <meta charset="UTF-8">
     <title>Song S</title>
@@ -9,12 +10,25 @@
 <div class="simplecard">
     <div class="TitleCard">
         <h1>S</h1>
+        <div>
+            <ul style="list-style: none">
+                <li><a href="http://kksongs.org/" style="font-size: 20px; padding-bottom: 12px"><i
+                        class="fa fa-home fa-lg"></i> Home</a></li>
+                <li><a href="http://kksongs.org/lyrics.html" style="font-size: 20px; padding-bottom: 12px"><i
+                        class="fa fa-pencil fa-lg"></i>
+                    Song Lyrics</a></li>
+                <li><a href="http://kksongs.org/songs/officialindex.html" style="font-size: 20px; padding-bottom:
+                12px; margin-bottom: 15px"><i
+                        class="fa fa-book fa-lg"></i> Official Index</a></li>
+            </ul>
+        </div>
     </div>
     <div class="simplecard" style="display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         margin: auto">
+
         <ol class="gradient-list">
             <li><a href="#"> Sa Parsada Bhagavad Viraha Janita Vilapa</a></li>
             <li><a href="#"> Sa Vilapa Sri Vrndavana Basa Lalasa</a></li>
@@ -175,6 +189,11 @@
             <li><a href="#">Swabhista Lalasa Song 6</a></li>
         </ol>
     </div>
+</div>
+<div class="footer">
+    <h2>Krsna Kirtana Songs est. 2001 </h2>
+    <a href="http://kksongs.org/">www.kksongs.org</a>
+    <h3>UPDATED: October 7, 2017</h3>
 </div>
 </body>
 <style>
@@ -339,12 +358,13 @@
 
     .TitleCard {
         font-family: Helvetica;
-        width:130px;
-        border:1px solid #fafafa;
-        position:fixed; margin-right:150px;
+        width: 250px;
+        border: 1px solid #fafafa;
+        position: fixed;
+        margin-right: 150px;
         z-index: 4;
         font-size: 100px;
-        background: linear-gradient(201deg,#6cb9ec, #b278e5, #693973);
+        background: linear-gradient(201deg, #6cb9ec, #b278e5, #693973);
         background-size: 800% 800%;
         -webkit-animation: dynamicGradient 15s ease infinite;
         -webkit-background-clip: text;
@@ -362,6 +382,21 @@
         100% {
             background-position: 63% 0%
         }
+    }
+
+    .footer {
+
+        font-family: Helvetica;
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+        background: linear-gradient(180deg, #ff8a00, #e52e71);
+        webkit-animation: dynamicGradient 15s ease infinite;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
     }
 </style>
 </html>
